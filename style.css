@@ -1,4 +1,38 @@
-.column {
-    border: 1px solid #000;
-    min-height: 4rem;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(165, 165, 165);
+}
+#portfolio .btn-primary{
+    background-color: red;
+}
+.modal-content
+{
+    padding: 10px;
+    background-color: rgb(46, 9, 44);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+}
+.modal-title{
+    margin-bottom: 20px 0;
+    font-weight: 700;
+}
+.modal-content input{
+    background-color: rgb(37, 0, 31);
+    color: rgb(255, 255, 255);
+}
+.modal-content button{
+    margin: 10px;
+    background-color: rgb(46, 0, 41);
+    color: white;
+}
+
+.not-rounded , .not-rounded *{
+    border-radius: 0;
 }
